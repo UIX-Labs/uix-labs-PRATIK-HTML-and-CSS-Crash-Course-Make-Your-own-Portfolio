@@ -45,8 +45,6 @@
     height: 50px;
     width: 50px;
     border: 1px solid white;
-}
-#pink{
     background: rgb(224, 135, 232);
     position: absolute;
     top: 125px;

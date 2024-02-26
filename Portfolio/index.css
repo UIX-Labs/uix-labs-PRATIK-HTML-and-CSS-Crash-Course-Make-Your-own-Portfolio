@@ -1,1 +1,142 @@
 /* Write your code below for PORTFOLIO */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Revalia", sans-serif;
+    color: #00D8FF;
+
+}
+
+.container {
+    width: 100vw;
+    height: 1200vh;
+    background: #003E66;
+}
+
+#call-img {
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-right: 1rem;
+}
+
+nav {
+    border-bottom: 1px solid #00D8FF;
+}
+
+.nav-sections {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    align-items: center;
+    padding: 0px 1rem;
+}
+
+.nav-name {
+    font-family: "Revalia", sans-serif;
+    font-size: 3.1rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.nav-menu {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 1rem;
+}
+
+.nav-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 0rem 1rem;
+}
+
+#contact-me {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-align: left;
+    background: #003E66;
+    padding: 0.6rem;
+    border: 2px solid #00D8FF;
+    border-radius: 1rem;
+}
+
+.intro {
+    width: 100%;
+    height: 40vw;
+    border-bottom: 1px solid #00D8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#profile-dp {
+    height: 26rem;
+    width: 26rem;
+    border: none;
+    border-radius: 100%;
+}
+
+.intro-name {
+
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+
+}
+
+.intro-occupation {
+
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.about-title{
+    font-size: 2.5rem;
+    letter-spacing: 0.03em;
+    margin: 2rem;
+}
+.about-article{
+    margin: 2rem;
+    
+    font-size: 1.9rem;
+    letter-spacing: 0.035em;
+    text-align: left;
+    
+}
+article{
+    font-family: "Roboto", sans-serif; 
+    color: #9ABEE9;
+
+}
+span{
+    font-family: "Roboto", sans-serif; 
+    color: #9ABEE9;    
+}

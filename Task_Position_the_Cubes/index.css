@@ -1,1 +1,52 @@
 /*  Start coding below for POSITION THE CUBES TASK*/
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.first_cube{
+    height: 300px;
+    width: 300px;
+    background: rgb(103, 91, 198);
+    position: relative;
+    border: 1px solid white;
+}
+.second_cube{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border: 1px solid white;
+    
+}
+#green{
+    background: rgb(96, 177, 119);
+    top: 0px;
+    left: 0px;
+}
+#red{
+    background: rgb(237, 109, 82);
+    top: 0px;
+    right: 0px;
+}
+#blue{
+    background: rgb(69, 142, 247);
+    bottom: 0px;
+    right: 0px;
+}
+#yellow{
+    background: rgb(242, 169, 59);
+    bottom: 0px;
+    left: 0px;
+}
+.third_cube{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    background: rgb(224, 135, 232);
+    position: absolute;
+    top: 125px;
+    left: 125px;
+}

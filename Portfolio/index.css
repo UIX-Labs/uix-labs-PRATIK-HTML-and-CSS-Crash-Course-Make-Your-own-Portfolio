@@ -1,15 +1,20 @@
-/* Write your code below for PORTFOLIO */
 * {
     margin: 0px;
     padding: 0px;
     font-family: "Revalia", sans-serif;
     color: #00D8FF;
+    box-sizing: border-box;
 
 }
 
-.container {
-    width: 100vw;
+body {
     height: 1200vh;
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
     background: #003E66;
 }
 
@@ -82,7 +87,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 #profile-dp {
@@ -111,32 +116,174 @@ a {
     text-align: center;
 }
 
-.about{
+.about {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     padding: 2rem;
 }
-.about-title{
+
+.about-title {
     font-size: 2.5rem;
     letter-spacing: 0.03em;
     margin: 2rem;
 }
-.about-article{
+
+.about-article {
     margin: 2rem;
-    
+
     font-size: 1.9rem;
     letter-spacing: 0.035em;
     text-align: left;
-    
+    padding: 0px 8rem;
+
 }
-article{
-    font-family: "Roboto", sans-serif; 
+
+article {
+    font-family: "Roboto", sans-serif;
     color: #9ABEE9;
 
 }
-span{
-    font-family: "Roboto", sans-serif; 
-    color: #9ABEE9;    
+
+span {
+    font-family: "Roboto", sans-serif;
+    color: #9ABEE9;
+}
+
+.skills-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.03em;
+    margin: 2rem;
+}
+
+.skills-icon {
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 31rem;
+    background: #003E66;
+    gap: 2rem;
+    /* border: 2px solid yellow; */
+    padding: 6rem 3rem;
+
+}
+
+.get-in-touch {
+    /* border: 2px solid red; */
+    /* height: 100%; */
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0.7em;
+    text-align: left;
+
+}
+
+.get-in-touch-title {
+    letter-spacing: 0.19em;
+
+}
+
+.get-in-touch-icons {
+    display: flex;
+    font-size: 1.7rem;
+    margin-top: 1rem
+}
+
+.contact-form {
+    /* height: 100%; */
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 1em;
+    text-align: left;
+    background: #9ABEE9;
+    width: 28em;
+    height: 8em;
+    border-radius: 2rem;
+}
+
+.contact-form-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.19em;
+    text-align: left;
+    color: #003E66;
+
+
+}
+
+.get-in-touch img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+}
+
+.social-media-icons {
+    margin-top: 1rem;
+}
+
+#email,
+#text {
+    width: 100%;
+    height: 2.8em;
+    margin-top: 0.8em;
+    padding: 0.5em;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #3F7090;
+    letter-spacing: 0.19em;
+    text-align: left;
+    border-radius: 0.8rem;
+    border: none;
+
+}
+
+#submit {
+    border-radius: 1.5rem;
+    display: block;
+    margin: 1em auto;
+    height: 2.8em;
+    width: 10em;
+    border: 2px solid #003E66;
+    color: #003E66;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 0px 0px;
+    background: #9ABEE9;
+
+
+}
+
+.last-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: #9ABEE9;
+    margin-top: 1em;
+}
+
+.items{
+    color: #9ABEE9;
+    font-family: "Roboto", sans-serif;
+
 }
